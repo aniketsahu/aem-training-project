@@ -103,10 +103,27 @@ Hey I am going to pring the variable here === ${testVariable}
 
 End of data-sly-test!!!!
 
-Start of <b>data-sly-list</b>
+Start of <b>data-sly-list for testing T's query</b>
 <div data-sly-list="${currentPage.listChildren}">
     <ul>
-        <li>${item.title}</li>
+        <li>${item.name}</li>
     </ul>
+    Start of <b>data-sly-list for testing T's query child</b>
+    <div data-sly-list="${item.listChildren}">
+        <ul>
+            <li>${item.name}</li>
+        </ul>
+    </div>
 </div>
 End of <b>data-sly-list</b>
+I am not giving demo to Sage, Errol
+
+<br>
+Hey following is not the list of children on current page
+
+<sly data-sly-use.pageOfMyInterest="${currentPage.path}" />
+<div data-sly-list.t="${pageOfMyInterest.listChildren}">
+    <ul>
+        <li>${t.name}</li>
+    </ul>
+</div>
