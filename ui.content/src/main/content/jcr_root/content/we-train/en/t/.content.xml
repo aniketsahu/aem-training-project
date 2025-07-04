@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2025-07-03T21:37:25.524+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/we-train/settings/wcm/templates/student-details"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="T"
+        sling:resourceType="training/components/structure/page">
+        <root
+            jcr:lastModified="{Date}2025-07-02T12:39:16.541+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <title
+                jcr:created="{Date}2025-07-02T12:55:47.662+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2025-07-02T12:55:47.662+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/title"/>
+            <text
+                jcr:created="{Date}2025-07-02T12:56:22.503+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2025-07-02T12:56:22.503+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/text"/>
+            <title_1520440709
+                jcr:created="{Date}2025-07-03T21:29:18.961+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2025-07-03T21:37:25.521+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="training/components/content/title"
+                firstName="Aniket"
+                lastName="Sahu"
+                linkTarget="_self"
+                type="h1"/>
+        </root>
+    </jcr:content>
+</jcr:root>
