@@ -28,6 +28,7 @@ Am I displaying?
 <sly data-sly-call="${templates.placeholder @ isEmpty = !text, classAppend='cmp-text'}"></sly>
 
 <sly data-sly-use.parentOfHobby="${resource.path}/items" />
+${parentOfHobby.name}
 <div data-sly-list.child="${parentOfHobby.listChildren}">
     <div>Hobby : ${child.hobby}</div>
 </div>

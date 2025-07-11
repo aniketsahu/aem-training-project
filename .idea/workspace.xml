@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae385c09-1d49-400d-8f18-123c77aff76b" name="Changes" comment="commit for Debasis for Saturday class">
-      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/training/components/content/text/.content.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/training/components/content/text/_cq_dialog/.content.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/training/components/content/text/text.html" afterDir="false" />
+    <list default="true" id="ae385c09-1d49-400d-8f18-123c77aff76b" name="Changes" comment="text component with multifield">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,12 +77,21 @@
       <option name="project" value="LOCAL" />
       <updated>1751611440253</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="text component with multifield">
+      <option name="closed" value="true" />
+      <created>1751943909126</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1751943909126</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="commit for Debasis for Saturday class" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit for Debasis for Saturday class" />
+    <MESSAGE value="text component with multifield" />
+    <option name="LAST_COMMIT_MESSAGE" value="text component with multifield" />
   </component>
 </project>
