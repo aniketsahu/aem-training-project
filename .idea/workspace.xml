@@ -5,334 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ae385c09-1d49-400d-8f18-123c77aff76b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/all/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/all/src/main/content/META-INF/vault/definition/.content.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/all/src/main/content/META-INF/vault/filter.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archetype.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/org/example/core/filters/LoggingFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/org/example/core/filters/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/org/example/core/listeners/SimpleResourceListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/org/example/core/listeners/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/org/example/core/models/HelloWorldModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/org/example/core/models/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/org/example/core/schedulers/SimpleScheduledTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/org/example/core/schedulers/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/org/example/core/servlets/SimpleServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/org/example/core/servlets/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/test/java/org/example/core/filters/LoggingFilterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/test/java/org/example/core/listeners/SimpleResourceListenerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/test/java/org/example/core/models/HelloWorldModelTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/test/java/org/example/core/schedulers/SimpleScheduledTaskTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/test/java/org/example/core/servlets/SimpleServletTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/test/java/org/example/core/testcontext/AppAemContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dispatcher/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dispatcher/assembly.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dispatcher/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dispatcher/src/conf.d/README" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dispatcher/src/conf.d/allowlists/000_base_allowlist.rules" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dispatcher/src/conf.d/autoindex.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dispatcher/src/conf.d/available_vhosts/000_unhealthy_author.vhost" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dispatcher/src/conf.d/available_vhosts/000_unhealthy_publish.vhost" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dispatcher/src/conf.d/available_vhosts/aem_author.vhost" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dispatcher/src/conf.d/available_vhosts/aem_flush.vhost" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dispatcher/src/conf.d/available_vhosts/aem_health.vhost" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dispatcher/src/conf.d/available_vhosts/aem_lc.vhost" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dispatcher/src/conf.d/available_vhosts/aem_publish.vhost" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dispatcher/src/conf.d/available_vhosts/training-project_publish.vhost" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dispatcher/src/conf.d/dispatcher_vhost.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dispatcher/src/conf.d/enabled_vhosts/aem_author.vhost" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dispatcher/src/conf.d/enabled_vhosts/aem_flush.vhost" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dispatcher/src/conf.d/enabled_vhosts/aem_health.vhost" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dispatcher/src/conf.d/enabled_vhosts/training-project_publish.vhost" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dispatcher/src/conf.d/logformat.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dispatcher/src/conf.d/mimetypes3d.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dispatcher/src/conf.d/remoteip.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dispatcher/src/conf.d/rewrites/base_rewrite.rules" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dispatcher/src/conf.d/rewrites/training-project_rewrite.rules" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dispatcher/src/conf.d/rewrites/xforwarded_forcessl_rewrite.rules" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dispatcher/src/conf.d/security.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dispatcher/src/conf.d/userdir.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dispatcher/src/conf.d/variables/aem-commerce.vars" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dispatcher/src/conf.d/variables/ams_default.vars" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dispatcher/src/conf.d/welcome.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dispatcher/src/conf.dispatcher.d/available_farms/000_ams_author_farm.any" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dispatcher/src/conf.dispatcher.d/available_farms/001_ams_lc_farm.any" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dispatcher/src/conf.dispatcher.d/available_farms/999_ams_publish_farm.any" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dispatcher/src/conf.dispatcher.d/cache/ams_author_cache.any" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dispatcher/src/conf.dispatcher.d/cache/ams_author_invalidate_allowed.any" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dispatcher/src/conf.dispatcher.d/cache/ams_publish_cache.any" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dispatcher/src/conf.dispatcher.d/cache/ams_publish_invalidate_allowed.any" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dispatcher/src/conf.dispatcher.d/clientheaders/ams_author_clientheaders.any" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dispatcher/src/conf.dispatcher.d/clientheaders/ams_common_clientheaders.any" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dispatcher/src/conf.dispatcher.d/clientheaders/ams_lc_clientheaders.any" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dispatcher/src/conf.dispatcher.d/clientheaders/ams_publish_clientheaders.any" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dispatcher/src/conf.dispatcher.d/dispatcher.any" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dispatcher/src/conf.dispatcher.d/enabled_farms/000_ams_author_farm.any" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dispatcher/src/conf.dispatcher.d/enabled_farms/999_ams_publish_farm.any" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dispatcher/src/conf.dispatcher.d/filters/ams_author_filters.any" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dispatcher/src/conf.dispatcher.d/filters/ams_lc_filters.any" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dispatcher/src/conf.dispatcher.d/filters/ams_publish_filters.any" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dispatcher/src/conf.dispatcher.d/renders/ams_author_renders.any" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dispatcher/src/conf.dispatcher.d/renders/ams_lc_renders.any" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dispatcher/src/conf.dispatcher.d/renders/ams_publish_renders.any" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dispatcher/src/conf.dispatcher.d/vhosts/ams_author_vhosts.any" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dispatcher/src/conf.dispatcher.d/vhosts/ams_lc_vhosts.any" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dispatcher/src/conf.dispatcher.d/vhosts/ams_publish_vhosts.any" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dispatcher/src/conf.modules.d/00-base.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dispatcher/src/conf.modules.d/00-dav.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dispatcher/src/conf.modules.d/00-lua.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dispatcher/src/conf.modules.d/00-mpm.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dispatcher/src/conf.modules.d/00-proxy.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dispatcher/src/conf.modules.d/00-systemd.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dispatcher/src/conf.modules.d/01-cgi.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dispatcher/src/conf.modules.d/02-dispatcher.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dispatcher/src/conf/httpd.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dispatcher/src/conf/magic" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/it.tests/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/it.tests/src/main/java/org/example/it/tests/CreatePageIT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/it.tests/src/main/java/org/example/it/tests/GetPageIT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/it.tests/src/main/java/org/example/it/tests/HtmlUnitClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/it.tests/src/main/java/org/example/it/tests/PublishPageValidationIT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.apps.structure/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.apps/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.apps/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/META-INF/vault/filter.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/training-project/clientlibs/clientlib-base/.content.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/training-project/clientlibs/clientlib-base/css.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/training-project/clientlibs/clientlib-base/js.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/training-project/clientlibs/clientlib-grid/.content.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/training-project/clientlibs/clientlib-grid/css.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/training-project/clientlibs/clientlib-grid/less/grid.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/training-project/components/accordion/.content.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/training-project/components/accordion/_cq_editConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/training-project/components/accordion/_cq_template/.content.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/training-project/components/accordion/new/.content.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/training-project/components/breadcrumb/.content.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/training-project/components/button/.content.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/training-project/components/carousel/.content.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/training-project/components/carousel/_cq_editConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/training-project/components/carousel/new/.content.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/training-project/components/container/.content.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/training-project/components/container/new/.content.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/training-project/components/contentfragment/.content.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/training-project/components/contentfragment/_cq_editConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/training-project/components/contentfragmentlist/.content.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/training-project/components/download/.content.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/training-project/components/download/_cq_editConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/training-project/components/embed/.content.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/training-project/components/experiencefragment/.content.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/training-project/components/experiencefragment/_cq_editConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/training-project/components/form/button/.content.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/training-project/components/form/container/.content.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/training-project/components/form/container/_cq_editConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/training-project/components/form/container/new/.content.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/training-project/components/form/hidden/.content.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/training-project/components/form/options/.content.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/training-project/components/form/text/.content.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/training-project/components/helloworld/.content.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/training-project/components/helloworld/_cq_dialog/.content.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/training-project/components/helloworld/helloworld.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/training-project/components/image/.content.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/training-project/components/image/_cq_editConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/training-project/components/languagenavigation/.content.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/training-project/components/list/.content.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/training-project/components/list/_cq_editConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/training-project/components/navigation/.content.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/training-project/components/page/.content.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/training-project/components/page/customfooterlibs.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/training-project/components/page/customheaderlibs.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/training-project/components/pdfviewer/.content.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/training-project/components/progressbar/.content.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/training-project/components/remotepage/.content.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/training-project/components/remotepagenext/.content.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/training-project/components/search/.content.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/training-project/components/separator/.content.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/training-project/components/spa/.content.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/training-project/components/tableofcontents/.content.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/training-project/components/tableofcontents/_cq_editConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/training-project/components/tabs/.content.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/training-project/components/tabs/_cq_editConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/training-project/components/tabs/_cq_template/.content.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/training-project/components/tabs/new/.content.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/training-project/components/teaser/.content.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/training-project/components/teaser/_cq_editConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/training-project/components/text/.content.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/training-project/components/text/_cq_editConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/training-project/components/title/.content.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/training-project/components/title/_cq_editConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/training-project/components/xfpage/.content.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/training-project/components/xfpage/content.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/training-project/components/xfpage/customfooterlibs.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/training-project/components/xfpage/customheaderlibs.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/training-project/i18n/.content.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/training-project/i18n/fr.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/training-project/i18n/fr.json.dir/.content.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.config/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.config/src/main/content/META-INF/vault/filter.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.config/src/main/content/jcr_root/apps/training-project/osgiconfig/config.author/com.adobe.granite.cors.impl.CORSPolicyImpl~training-project.cfg.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.config/src/main/content/jcr_root/apps/training-project/osgiconfig/config.author/com.day.cq.wcm.mobile.core.impl.MobileEmulatorProvider~training-project.cfg.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.config/src/main/content/jcr_root/apps/training-project/osgiconfig/config.prod/org.apache.sling.commons.log.LogManager.factory.config~training-project.cfg.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.config/src/main/content/jcr_root/apps/training-project/osgiconfig/config.publish/org.apache.sling.jcr.resource.internal.JcrResourceResolverFactoryImpl.cfg.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.config/src/main/content/jcr_root/apps/training-project/osgiconfig/config.stage/org.apache.sling.commons.log.LogManager.factory.config~training-project.cfg.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.config/src/main/content/jcr_root/apps/training-project/osgiconfig/config/com.adobe.cq.wcm.core.components.internal.servlets.TableOfContentsFilter~training-project.cfg.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.config/src/main/content/jcr_root/apps/training-project/osgiconfig/config/org.apache.sling.commons.log.LogManager.factory.config~training-project.cfg.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.config/src/main/content/jcr_root/apps/training-project/osgiconfig/config/org.apache.sling.jcr.repoinit.RepositoryInitializer~training-project.cfg.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.content/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/META-INF/vault/filter.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/training-project/.content.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/training-project/_sling_configs/.content.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/training-project/_sling_configs/_rep_policy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/training-project/settings/.content.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/training-project/settings/cloudconfigs/.content.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/training-project/settings/dam/.content.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/training-project/settings/wcm/.content.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/training-project/settings/wcm/policies/.content.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/training-project/settings/wcm/policies/_rep_policy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/training-project/settings/wcm/segments/.content.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/training-project/settings/wcm/segments/summer/.content.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/training-project/settings/wcm/segments/winter/.content.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/training-project/settings/wcm/template-types/.content.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/training-project/settings/wcm/template-types/_rep_policy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/training-project/settings/wcm/template-types/page/.content.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/training-project/settings/wcm/template-types/page/initial/.content.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/training-project/settings/wcm/template-types/page/policies/.content.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/training-project/settings/wcm/template-types/page/structure/.content.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/training-project/settings/wcm/template-types/page/thumbnail.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/training-project/settings/wcm/template-types/page/thumbnail.png.dir/.content.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/training-project/settings/wcm/template-types/page/thumbnail.png.dir/_jcr_content/_dam_thumbnails/_dam_thumbnail_300.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/training-project/settings/wcm/template-types/page/thumbnail.png.dir/_jcr_content/_dam_thumbnails/_dam_thumbnail_319.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/training-project/settings/wcm/template-types/page/thumbnail.png.dir/_jcr_content/_dam_thumbnails/_dam_thumbnail_48.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/training-project/settings/wcm/template-types/xf/.content.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/training-project/settings/wcm/template-types/xf/initial/.content.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/training-project/settings/wcm/template-types/xf/policies/.content.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/training-project/settings/wcm/template-types/xf/structure/.content.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/training-project/settings/wcm/template-types/xf/thumbnail.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/training-project/settings/wcm/templates/.content.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/training-project/settings/wcm/templates/_rep_policy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/training-project/settings/wcm/templates/page-content/.content.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/training-project/settings/wcm/templates/page-content/initial/.content.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/training-project/settings/wcm/templates/page-content/policies/.content.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/training-project/settings/wcm/templates/page-content/structure/.content.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/training-project/settings/wcm/templates/page-content/thumbnail.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/training-project/settings/wcm/templates/page-content/thumbnail.png.dir/.content.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/training-project/settings/wcm/templates/page-content/thumbnail.png.dir/_jcr_content/_dam_thumbnails/_dam_thumbnail_300.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/training-project/settings/wcm/templates/page-content/thumbnail.png.dir/_jcr_content/_dam_thumbnails/_dam_thumbnail_319.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/training-project/settings/wcm/templates/page-content/thumbnail.png.dir/_jcr_content/_dam_thumbnails/_dam_thumbnail_48.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/training-project/settings/wcm/templates/xf-web-variation/.content.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/training-project/settings/wcm/templates/xf-web-variation/initial/.content.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/training-project/settings/wcm/templates/xf-web-variation/policies/.content.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/training-project/settings/wcm/templates/xf-web-variation/structure/.content.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/training-project/settings/wcm/templates/xf-web-variation/thumbnail.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/training-project/settings/wcm/templates/xf-web-variation/thumbnail.png.dir/.content.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/training-project/settings/wcm/templates/xf-web-variation/thumbnail.png.dir/_jcr_content/_dam_thumbnails/_dam_thumbnail_128.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/training-project/settings/wcm/templates/xf-web-variation/thumbnail.png.dir/_jcr_content/_dam_thumbnails/_dam_thumbnail_319.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/content/dam/training-project/.content.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/content/dam/training-project/_jcr_content/folderThumbnail" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/content/dam/training-project/asset.jpg/.content.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/content/dam/training-project/asset.jpg/_jcr_content/renditions/cq5dam.thumbnail.140.100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/content/dam/training-project/asset.jpg/_jcr_content/renditions/cq5dam.thumbnail.319.319.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/content/dam/training-project/asset.jpg/_jcr_content/renditions/cq5dam.thumbnail.48.48.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/content/dam/training-project/asset.jpg/_jcr_content/renditions/cq5dam.web.1280.1280.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/content/dam/training-project/asset.jpg/_jcr_content/renditions/original" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/content/dam/training-project/asset.jpg/_jcr_content/renditions/original.dir/.content.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/content/experience-fragments/training-project/.content.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/content/experience-fragments/training-project/us/.content.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/content/experience-fragments/training-project/us/en/.content.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/content/experience-fragments/training-project/us/en/site/.content.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/content/experience-fragments/training-project/us/en/site/footer/.content.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/content/experience-fragments/training-project/us/en/site/footer/master/.content.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/content/experience-fragments/training-project/us/en/site/header/.content.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/content/experience-fragments/training-project/us/en/site/header/master/.content.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/content/experience-fragments/training-project/us/en/site/header/master/_jcr_content/root/logo/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/content/training-project/.content.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/content/training-project/_jcr_content/image/file" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/content/training-project/_jcr_content/image/file.dir/.content.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/content/training-project/_jcr_content/image/file.dir/_jcr_content/_dam_thumbnails/_dam_thumbnail_300.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/content/training-project/_jcr_content/image/file.dir/_jcr_content/_dam_thumbnails/_dam_thumbnail_319.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/content/training-project/_jcr_content/image/file.dir/_jcr_content/_dam_thumbnails/_dam_thumbnail_48.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/content/training-project/_jcr_content/image/file.dir/_jcr_content/_dam_thumbnails/_dam_thumbnail_480.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/content/training-project/us/.content.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/content/training-project/us/en/.content.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.frontend/.babelrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.frontend/.eslintignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.frontend/.eslintrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.frontend/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.frontend/assembly.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.frontend/clientlib.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.frontend/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.frontend/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.frontend/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.frontend/src/main/webpack/components/_accordion.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.frontend/src/main/webpack/components/_breadcrumb.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.frontend/src/main/webpack/components/_button.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.frontend/src/main/webpack/components/_carousel.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.frontend/src/main/webpack/components/_container.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.frontend/src/main/webpack/components/_contentfragment.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.frontend/src/main/webpack/components/_contentfragmentlist.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.frontend/src/main/webpack/components/_download.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.frontend/src/main/webpack/components/_embed.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.frontend/src/main/webpack/components/_experiencefragment.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.frontend/src/main/webpack/components/_form-button.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.frontend/src/main/webpack/components/_form-options.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.frontend/src/main/webpack/components/_form-text.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.frontend/src/main/webpack/components/_form.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.frontend/src/main/webpack/components/_helloworld.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.frontend/src/main/webpack/components/_helloworld.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.frontend/src/main/webpack/components/_image.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.frontend/src/main/webpack/components/_languagenavigation.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.frontend/src/main/webpack/components/_list.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.frontend/src/main/webpack/components/_navigation.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.frontend/src/main/webpack/components/_pdfviewer.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.frontend/src/main/webpack/components/_progressbar.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.frontend/src/main/webpack/components/_search.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.frontend/src/main/webpack/components/_separator.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.frontend/src/main/webpack/components/_tabs.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.frontend/src/main/webpack/components/_teaser.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.frontend/src/main/webpack/components/_text.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.frontend/src/main/webpack/components/_title.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.frontend/src/main/webpack/resources/fonts/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.frontend/src/main/webpack/resources/images/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.frontend/src/main/webpack/site/_base.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.frontend/src/main/webpack/site/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.frontend/src/main/webpack/site/main.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.frontend/src/main/webpack/site/main.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.frontend/src/main/webpack/site/styles/container_main.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.frontend/src/main/webpack/site/styles/experiencefragment_footer.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.frontend/src/main/webpack/site/styles/experiencefragment_header.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.frontend/src/main/webpack/static/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.frontend/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.frontend/webpack.common.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.frontend/webpack.dev.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.frontend/webpack.prod.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.tests/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.tests/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.tests/assembly-ui-test-docker-context.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.tests/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/.eslintrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/cypress.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/cypress/e2e/assets.cy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/cypress/e2e/basic.cy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/cypress/e2e/console_error.cy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/cypress/e2e/login.cy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/cypress/fixtures/example.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/cypress/results/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/cypress/support/commands.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/cypress/support/e2e.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/reporter.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/run.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/training/components/content/button/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/training/components/content/button/_cq_dialog/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/training/components/content/button/button.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/training/components/content/employee_details/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/training/components/content/employee_details/_cq_dialog/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/training/components/content/employee_details/quote.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/training/components/content/quote/red.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/training/components/content/text/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/training/components/content/text/_cq_dialog/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/training/components/content/text/text.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/training/components/content/title/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/training/components/content/title/_cq_dialog/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/training/components/content/title/title.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/training/components/content/quote/_cq_dialog/.content.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/training/components/content/quote/_cq_dialog/.content.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/training/components/content/quote/quote.html" beforeDir="false" afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/training/components/content/quote/quote.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -340,24 +28,46 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;nlamaj40&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/aniketsahu/aem-training-project.git&quot;,
+    &quot;accountId&quot;: &quot;8aace354-4f04-4a48-ba04-254697750a42&quot;
+  }
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2y50rCWl8ZAjpprP6vsxVGLn53O" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;T&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.externalTools&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -368,5 +78,16 @@
       <updated>1749109323974</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
